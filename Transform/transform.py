@@ -3,6 +3,57 @@ import os
 import re
 from glob import glob
 
+SKILL_CATEGORIES = {
+
+    # Programming Languages
+    "python": "Languages",
+    "javascript": "Languages",
+    "typescript": "Languages",
+    "go": "Languages",
+    "rust": "Languages",
+
+    # Frontend
+    "react": "Frontend",
+    "vue": "Frontend",
+    "tailwindcss": "Frontend",
+
+    # Backend / API
+    "nodejs": "Backend",
+    "django": "Backend",
+    "fastapi": "Backend",
+
+    # AI / Machine Learning
+    "tensorflow": "AI/ML",
+    "pytorch": "AI/ML",
+
+    # Data Engineering
+    "airflow": "Data",
+    "dbt": "Data",
+    "kafka": "Data",
+    "spark": "Data",
+    "pandas": "Data",
+
+    # Databases / Data Platforms
+    "postgresql": "Database",
+    "mongodb": "Database",
+    "redis": "Database",
+    "snowflake": "Database",
+
+    # Cloud
+    "aws": "Cloud",
+    "azure": "Cloud",
+    "gcp": "Cloud",
+
+    # DevOps / Infrastructure
+    "docker": "DevOps",
+    "kubernetes": "DevOps",
+    "terraform": "DevOps",
+
+    # Mobile
+    "react-native": "Mobile",
+    "flutter": "Mobile",
+}
+
 DATA_DIR = "data"
 
 
@@ -34,8 +85,10 @@ def flatten_github(raw_list, date_pulled):
     for entry in raw_list:
         top_repos = entry.get("top_repos", [])
         stars = [r["stars"] for r in top_repos if "stars" in r]
+        skill = entry["skill"]
         rows.append({
-            "skill": entry["skill"],
+            "skill": skill,
+            "category": SKILL_CATEGORIES.get(skill, "Other"),
             "date_pulled": date_pulled,
             "total_count": entry.get("total_count", 0),
             "top_repos_avg_stars": round(sum(stars) / len(stars), 1) if stars else 0,
@@ -48,8 +101,10 @@ def flatten_adzuna(raw_list, date_pulled):
     """Turn raw Adzuna skill dicts into clean flat rows for the job_postings table."""
     rows = []
     for entry in raw_list:
+        skill = entry["skill"]
         rows.append({
-            "skill": entry["skill"],
+            "skill": skill,
+            "category": SKILL_CATEGORIES.get(skill, "Other"),
             "date_pulled": date_pulled,
             "job_count": entry.get("job_count", 0),
         })

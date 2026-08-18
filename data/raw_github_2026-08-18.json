@@ -1,149 +1,97 @@
 [
   {
     "skill": "python",
-    "total_count": 32514212,
+    "total_count": 32519814,
     "top_repos": [
       {
         "name": "public-apis/public-apis",
-        "stars": 463518
+        "stars": 463717
       },
       {
         "name": "EbookFoundation/free-programming-books",
-        "stars": 394660
+        "stars": 394667
       },
       {
         "name": "donnemartin/system-design-primer",
-        "stars": 364533
+        "stars": 364577
       },
       {
         "name": "vinta/awesome-python",
-        "stars": 314584
+        "stars": 314605
       },
       {
         "name": "practical-tutorials/project-based-learning",
-        "stars": 279687
+        "stars": 279707
       }
     ]
   },
   {
     "skill": "javascript",
-    "total_count": 46546246,
+    "total_count": 46550650,
     "top_repos": [
       {
         "name": "react/react",
-        "stars": 247384
+        "stars": 247403
       },
       {
         "name": "affaan-m/ECC",
-        "stars": 240808
+        "stars": 240827
       },
       {
         "name": "trekhleb/javascript-algorithms",
-        "stars": 196510
+        "stars": 196508
       },
       {
         "name": "Snailclimb/JavaGuide",
-        "stars": 157847
+        "stars": 157851
       },
       {
         "name": "airbnb/javascript",
-        "stars": 148133
+        "stars": 148134
       }
     ]
   },
   {
-    "skill": "typescript",
-    "total_count": 17785140,
+    "skill": "java",
+    "total_count": 21443378,
     "top_repos": [
       {
-        "name": "freeCodeCamp/freeCodeCamp",
-        "stars": 454231
+        "name": "krahets/hello-algo",
+        "stars": 129451
       },
       {
-        "name": "openclaw/openclaw",
-        "stars": 386607
+        "name": "iluwatar/java-design-patterns",
+        "stars": 94578
       },
       {
-        "name": "nilbuild/developer-roadmap",
-        "stars": 364795
+        "name": "Stirling-Tools/Stirling-PDF",
+        "stars": 89769
       },
       {
-        "name": "vuejs/vue",
-        "stars": 210222
+        "name": "macrozheng/mall",
+        "stars": 84576
       },
       {
-        "name": "n8n-io/n8n",
-        "stars": 201055
-      }
-    ]
-  },
-  {
-    "skill": "go",
-    "total_count": 2463795,
-    "top_repos": [
-      {
-        "name": "avelino/awesome-go",
-        "stars": 181356
-      },
-      {
-        "name": "ollama/ollama",
-        "stars": 178854
-      },
-      {
-        "name": "golang/go",
-        "stars": 135874
-      },
-      {
-        "name": "kubernetes/kubernetes",
-        "stars": 124552
-      },
-      {
-        "name": "fatedier/frp",
-        "stars": 108844
-      }
-    ]
-  },
-  {
-    "skill": "rust",
-    "total_count": 1302356,
-    "top_repos": [
-      {
-        "name": "ultraworkers/claw-code",
-        "stars": 195075
-      },
-      {
-        "name": "farion1231/cc-switch",
-        "stars": 127990
-      },
-      {
-        "name": "rustdesk/rustdesk",
-        "stars": 121140
-      },
-      {
-        "name": "rust-lang/rust",
-        "stars": 115565
-      },
-      {
-        "name": "tauri-apps/tauri",
-        "stars": 110313
+        "name": "spring-projects/spring-boot",
+        "stars": 81312
       }
     ]
   },
   {
     "skill": "react",
-    "total_count": 508811,
+    "total_count": 508929,
     "top_repos": [
       {
         "name": "freeCodeCamp/freeCodeCamp",
-        "stars": 454231
+        "stars": 454237
       },
       {
         "name": "react/react",
-        "stars": 247384
+        "stars": 247403
       },
       {
         "name": "vercel/next.js",
-        "stars": 141822
+        "stars": 141845
       },
       {
         "name": "react/react-native",
@@ -151,25 +99,25 @@
       },
       {
         "name": "shadcn-ui/ui",
-        "stars": 121537
+        "stars": 121549
       }
     ]
   },
   {
     "skill": "vue",
-    "total_count": 62949,
+    "total_count": 62948,
     "top_repos": [
       {
         "name": "vuejs/vue",
-        "stars": 210222
+        "stars": 210238
       },
       {
         "name": "justjavac/free-programming-books-zh_CN",
-        "stars": 118372
+        "stars": 118376
       },
       {
         "name": "storybookjs/storybook",
-        "stars": 90862
+        "stars": 90867
       },
       {
         "name": "PanJiaChen/vue-element-admin",
@@ -183,71 +131,71 @@
   },
   {
     "skill": "tailwindcss",
-    "total_count": 169405,
+    "total_count": 169449,
     "top_repos": [
       {
         "name": "shadcn-ui/ui",
-        "stars": 121537
+        "stars": 121549
       },
       {
         "name": "nextlevelbuilder/ui-ux-pro-max-skill",
-        "stars": 117765
+        "stars": 117812
       },
       {
         "name": "tailwindlabs/tailwindcss",
-        "stars": 97256
+        "stars": 97272
       },
       {
         "name": "calcom/cal.diy",
-        "stars": 47771
+        "stars": 47777
       },
       {
         "name": "DavidHDev/react-bits",
-        "stars": 45716
+        "stars": 45728
       }
     ]
   },
   {
     "skill": "django",
-    "total_count": 79214,
+    "total_count": 79221,
     "top_repos": [
       {
         "name": "django/django",
-        "stars": 88447
+        "stars": 88467
       },
       {
         "name": "makeplane/plane",
-        "stars": 56078
+        "stars": 56084
       },
       {
         "name": "LeCoupa/awesome-cheatsheets",
-        "stars": 46370
+        "stars": 46369
       },
       {
         "name": "getsentry/sentry",
-        "stars": 44568
+        "stars": 44569
       },
       {
         "name": "paperless-ngx/paperless-ngx",
-        "stars": 44361
+        "stars": 44371
       }
     ]
   },
   {
     "skill": "fastapi",
-    "total_count": 80153,
+    "total_count": 80218,
     "top_repos": [
       {
         "name": "fastapi/fastapi",
-        "stars": 101667
+        "stars": 101673
       },
       {
         "name": "headroomlabs-ai/headroom",
-        "stars": 66727
+        "stars": 66743
       },
       {
         "name": "fastapi/full-stack-fastapi-template",
-        "stars": 44920
+        "stars": 44925
       },
       {
         "name": "mouredev/Hello-Python",
@@ -261,37 +209,37 @@
   },
   {
     "skill": "nodejs",
-    "total_count": 331708,
+    "total_count": 331762,
     "top_repos": [
       {
         "name": "freeCodeCamp/freeCodeCamp",
-        "stars": 454231
+        "stars": 454237
       },
       {
         "name": "Chalarangelo/30-seconds-of-code",
-        "stars": 128731
+        "stars": 128733
       },
       {
         "name": "electron/electron",
-        "stars": 122516
+        "stars": 122543
       },
       {
         "name": "nodejs/node",
-        "stars": 118984
+        "stars": 119008
       },
       {
         "name": "immich-app/immich",
-        "stars": 111426
+        "stars": 111496
       }
     ]
   },
   {
     "skill": "tensorflow",
-    "total_count": 44021,
+    "total_count": 44026,
     "top_repos": [
       {
         "name": "tensorflow/tensorflow",
-        "stars": 197022
+        "stars": 197035
       },
       {
         "name": "keras-team/keras",
@@ -299,11 +247,11 @@
       },
       {
         "name": "CorentinJ/Real-Time-Voice-Cloning",
-        "stars": 60091
+        "stars": 60090
       },
       {
         "name": "roboflow/supervision",
-        "stars": 49490
+        "stars": 49500
       },
       {
         "name": "aymericdamien/TensorFlow-Examples",
@@ -313,49 +261,49 @@
   },
   {
     "skill": "pytorch",
-    "total_count": 58214,
+    "total_count": 58226,
     "top_repos": [
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164555
+        "stars": 164554
       },
       {
         "name": "huggingface/transformers",
-        "stars": 164213
+        "stars": 164216
       },
       {
         "name": "Comfy-Org/ComfyUI",
-        "stars": 128212
+        "stars": 128235
       },
       {
         "name": "rasbt/LLMs-from-scratch",
-        "stars": 102881
+        "stars": 102894
       },
       {
         "name": "vllm-project/vllm",
-        "stars": 89330
+        "stars": 89347
       }
     ]
   },
   {
     "skill": "pandas",
-    "total_count": 62529,
+    "total_count": 62550,
     "top_repos": [
       {
         "name": "Asabeneh/30-Days-Of-Python",
-        "stars": 71254
+        "stars": 71270
       },
       {
         "name": "jakevdp/PythonDataScienceHandbook",
-        "stars": 49627
+        "stars": 49631
       },
       {
         "name": "pandas-dev/pandas",
-        "stars": 49510
+        "stars": 49511
       },
       {
         "name": "microsoft/Data-Science-For-Beginners",
-        "stars": 36637
+        "stars": 36636
       },
       {
         "name": "tqdm/tqdm",
@@ -365,15 +313,15 @@
   },
   {
     "skill": "spark",
-    "total_count": 9929,
+    "total_count": 9930,
     "top_repos": [
       {
         "name": "DataTalksClub/data-engineering-zoomcamp",
-        "stars": 44690
+        "stars": 44695
       },
       {
         "name": "apache/spark",
-        "stars": 43825
+        "stars": 43828
       },
       {
         "name": "donnemartin/data-science-ipython-notebooks",
@@ -381,29 +329,29 @@
       },
       {
         "name": "getredash/redash",
-        "stars": 28752
+        "stars": 28754
       },
       {
         "name": "yeasy/docker_practice",
-        "stars": 26193
+        "stars": 26194
       }
     ]
   },
   {
     "skill": "airflow",
-    "total_count": 5046,
+    "total_count": 5047,
     "top_repos": [
       {
         "name": "apache/airflow",
-        "stars": 46518
+        "stars": 46520
       },
       {
         "name": "argoproj/argo-workflows",
-        "stars": 16909
+        "stars": 16910
       },
       {
         "name": "apache/dolphinscheduler",
-        "stars": 14431
+        "stars": 14432
       },
       {
         "name": "orchest/orchest",
@@ -416,46 +364,20 @@
     ]
   },
   {
-    "skill": "dbt",
-    "total_count": 4181,
-    "top_repos": [
-      {
-        "name": "DataTalksClub/data-engineering-zoomcamp",
-        "stars": 44690
-      },
-      {
-        "name": "mage-ai/mage-ai",
-        "stars": 8804
-      },
-      {
-        "name": "evidence-dev/evidence",
-        "stars": 6859
-      },
-      {
-        "name": "lightdash/lightdash",
-        "stars": 6055
-      },
-      {
-        "name": "SQLMesh/sqlmesh",
-        "stars": 3244
-      }
-    ]
-  },
-  {
     "skill": "kafka",
-    "total_count": 18705,
+    "total_count": 18711,
     "top_repos": [
       {
         "name": "pathwaycom/pathway",
-        "stars": 62432
+        "stars": 62430
       },
       {
         "name": "DataTalksClub/data-engineering-zoomcamp",
-        "stars": 44690
+        "stars": 44695
       },
       {
         "name": "apache/kafka",
-        "stars": 33530
+        "stars": 33546
       },
       {
         "name": "yudaocode/SpringBoot-Labs",
@@ -473,11 +395,11 @@
     "top_repos": [
       {
         "name": "dbeaver/dbeaver",
-        "stars": 51464
+        "stars": 51466
       },
       {
         "name": "getredash/redash",
-        "stars": 28752
+        "stars": 28754
       },
       {
         "name": "airbytehq/airbyte",
@@ -495,49 +417,49 @@
   },
   {
     "skill": "postgresql",
-    "total_count": 109933,
+    "total_count": 109975,
     "top_repos": [
       {
         "name": "supabase/supabase",
-        "stars": 108113
+        "stars": 108116
       },
       {
         "name": "netdata/netdata",
-        "stars": 80218
+        "stars": 80219
       },
       {
         "name": "nocodb/nocodb",
-        "stars": 64574
+        "stars": 64576
       },
       {
         "name": "makeplane/plane",
-        "stars": 56078
+        "stars": 56085
       },
       {
         "name": "twentyhq/twenty",
-        "stars": 55068
+        "stars": 55077
       }
     ]
   },
   {
     "skill": "mongodb",
-    "total_count": 143558,
+    "total_count": 143572,
     "top_repos": [
       {
         "name": "macrozheng/mall",
-        "stars": 84575
+        "stars": 84576
       },
       {
         "name": "netdata/netdata",
-        "stars": 80218
+        "stars": 80219
       },
       {
         "name": "Asabeneh/30-Days-Of-Python",
-        "stars": 71254
+        "stars": 71270
       },
       {
         "name": "prisma/prisma",
-        "stars": 47567
+        "stars": 47566
       },
       {
         "name": "meteor/meteor",
@@ -546,42 +468,16 @@
     ]
   },
   {
-    "skill": "redis",
-    "total_count": 39986,
-    "top_repos": [
-      {
-        "name": "Snailclimb/JavaGuide",
-        "stars": 157847
-      },
-      {
-        "name": "macrozheng/mall",
-        "stars": 84575
-      },
-      {
-        "name": "doocs/advanced-java",
-        "stars": 79055
-      },
-      {
-        "name": "redis/redis",
-        "stars": 76025
-      },
-      {
-        "name": "coollabsio/coolify",
-        "stars": 60704
-      }
-    ]
-  },
-  {
     "skill": "aws",
-    "total_count": 65557,
+    "total_count": 65563,
     "top_repos": [
       {
         "name": "ByteByteGoHq/system-design-101",
-        "stars": 87271
+        "stars": 87281
       },
       {
         "name": "bregman-arie/devops-exercises",
-        "stars": 84129
+        "stars": 84132
       },
       {
         "name": "localstack/localstack",
@@ -593,25 +489,25 @@
       },
       {
         "name": "danny-avila/LibreChat",
-        "stars": 42173
+        "stars": 42184
       }
     ]
   },
   {
     "skill": "azure",
-    "total_count": 25146,
+    "total_count": 25150,
     "top_repos": [
       {
         "name": "microsoft/generative-ai-for-beginners",
-        "stars": 117980
+        "stars": 117991
       },
       {
         "name": "bregman-arie/devops-exercises",
-        "stars": 84129
+        "stars": 84132
       },
       {
         "name": "danny-avila/LibreChat",
-        "stars": 42173
+        "stars": 42184
       },
       {
         "name": "pulumi/pulumi",
@@ -620,142 +516,90 @@
       {
         "name": "getsops/sops",
         "stars": 22846
-      }
-    ]
-  },
-  {
-    "skill": "gcp",
-    "total_count": 8640,
-    "top_repos": [
-      {
-        "name": "pulumi/pulumi",
-        "stars": 25579
-      },
-      {
-        "name": "kriasoft/react-starter-kit",
-        "stars": 23667
-      },
-      {
-        "name": "getsops/sops",
-        "stars": 22846
-      },
-      {
-        "name": "GoogleCloudPlatform/microservices-demo",
-        "stars": 20847
-      },
-      {
-        "name": "GoogleCloudPlatform/generative-ai",
-        "stars": 17598
       }
     ]
   },
   {
     "skill": "docker",
-    "total_count": 205852,
+    "total_count": 205886,
     "top_repos": [
       {
         "name": "louislam/uptime-kuma",
-        "stars": 90273
+        "stars": 90287
       },
       {
         "name": "Stirling-Tools/Stirling-PDF",
-        "stars": 89752
+        "stars": 89769
       },
       {
         "name": "macrozheng/mall",
-        "stars": 84575
+        "stars": 84576
       },
       {
         "name": "bregman-arie/devops-exercises",
-        "stars": 84129
+        "stars": 84132
       },
       {
         "name": "netdata/netdata",
-        "stars": 80218
+        "stars": 80219
       }
     ]
   },
   {
     "skill": "kubernetes",
-    "total_count": 50577,
+    "total_count": 50591,
     "top_repos": [
       {
         "name": "kubernetes/kubernetes",
-        "stars": 124552
+        "stars": 124572
       },
       {
         "name": "bregman-arie/devops-exercises",
-        "stars": 84129
+        "stars": 84132
       },
       {
         "name": "netdata/netdata",
-        "stars": 80218
+        "stars": 80219
       },
       {
         "name": "traefik/traefik",
-        "stars": 64472
+        "stars": 64477
       },
       {
         "name": "minio/minio",
-        "stars": 61390
-      }
-    ]
-  },
-  {
-    "skill": "terraform",
-    "total_count": 38175,
-    "top_repos": [
-      {
-        "name": "bregman-arie/devops-exercises",
-        "stars": 84129
-      },
-      {
-        "name": "hashicorp/terraform",
-        "stars": 49475
-      },
-      {
-        "name": "MichaelCade/90DaysOfDevOps",
-        "stars": 29654
-      },
-      {
-        "name": "GoogleCloudPlatform/microservices-demo",
-        "stars": 20847
-      },
-      {
-        "name": "mikefarah/yq",
-        "stars": 15846
+        "stars": 61389
       }
     ]
   },
   {
     "skill": "flutter",
-    "total_count": 78321,
+    "total_count": 78337,
     "top_repos": [
       {
         "name": "flutter/flutter",
-        "stars": 178441
+        "stars": 178459
       },
       {
         "name": "rustdesk/rustdesk",
-        "stars": 121139
+        "stars": 121149
       },
       {
         "name": "immich-app/immich",
-        "stars": 111426
+        "stars": 111497
       },
       {
         "name": "localsend/localsend",
-        "stars": 88614
+        "stars": 88628
       },
       {
         "name": "AppFlowy-IO/AppFlowy",
-        "stars": 75663
+        "stars": 75672
       }
     ]
   },
   {
     "skill": "react-native",
-    "total_count": 60393,
+    "total_count": 60404,
     "top_repos": [
       {
         "name": "react/react-native",
@@ -763,11 +607,11 @@
       },
       {
         "name": "justjavac/free-programming-books-zh_CN",
-        "stars": 118372
+        "stars": 118376
       },
       {
         "name": "storybookjs/storybook",
-        "stars": 90863
+        "stars": 90867
       },
       {
         "name": "enaqx/awesome-react",

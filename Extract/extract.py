@@ -12,18 +12,18 @@ ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY")
 
 # Define your Skill List.
 
-LANGUAGE_SKILLS = ["python", "javascript", "typescript", "go", "rust"]
+CORE_SKILLS = ["python", "javascript","java"]
 FRONTEND_SKILLS = ["react", "vue", "tailwindcss"]
 BACKEND_SKILLS = ["django", "fastapi", "nodejs"]
 AI_ML_SKILLS = ["tensorflow", "pytorch", "pandas"]
-DATA_SKILLS = ["spark", "airflow", "dbt", "kafka", "snowflake"]
-DATABASE_SKILLS = ["postgresql", "mongodb", "redis"]
-CLOUD_SKILLS = ["aws", "azure", "gcp"]
-DEVOPS_SKILLS = ["docker", "kubernetes", "terraform"]
+DATA_SKILLS = ["spark", "airflow", "kafka", "snowflake"]
+DATABASE_SKILLS = ["postgresql", "mongodb"]
+CLOUD_SKILLS = ["aws", "azure"]
+DEVOPS_SKILLS = ["docker", "kubernetes"]
 MOBILE_SKILLS = ["flutter", "react-native"]
 
 ALL_SKILLS = (
-    LANGUAGE_SKILLS + FRONTEND_SKILLS + BACKEND_SKILLS + AI_ML_SKILLS
+    CORE_SKILLS + FRONTEND_SKILLS + BACKEND_SKILLS + AI_ML_SKILLS
     + DATA_SKILLS + DATABASE_SKILLS + CLOUD_SKILLS + DEVOPS_SKILLS + MOBILE_SKILLS
 )
 
@@ -33,7 +33,7 @@ ALL_SKILLS = (
 import requests
 
 def get_github_metrics(skill):
-    if skill in LANGUAGE_SKILLS:
+    if skill in CORE_SKILLS:
         query = f"language:{skill}"
     else:
         query = f"topic:{skill}"

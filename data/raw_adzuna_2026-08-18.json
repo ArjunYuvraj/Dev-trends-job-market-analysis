@@ -1,122 +1,98 @@
 [
   {
     "skill": "python",
-    "job_count": 162963
+    "job_count": 163813
   },
   {
     "skill": "javascript",
-    "job_count": 39156
+    "job_count": 39401
   },
   {
-    "skill": "typescript",
-    "job_count": 23733
-  },
-  {
-    "skill": "go",
-    "job_count": 603194
-  },
-  {
-    "skill": "rust",
-    "job_count": 10076
+    "skill": "java",
+    "job_count": 69540
   },
   {
     "skill": "react",
-    "job_count": 50917
+    "job_count": 51688
   },
   {
     "skill": "vue",
-    "job_count": 5473
+    "job_count": 5525
   },
   {
     "skill": "tailwindcss",
-    "job_count": 135
+    "job_count": 136
   },
   {
     "skill": "django",
-    "job_count": 2559
+    "job_count": 2567
   },
   {
     "skill": "fastapi",
-    "job_count": 3197
+    "job_count": 3214
   },
   {
     "skill": "nodejs",
-    "job_count": 11670
+    "job_count": 11766
   },
   {
     "skill": "tensorflow",
-    "job_count": 9859
+    "job_count": 9870
   },
   {
     "skill": "pytorch",
-    "job_count": 12945
+    "job_count": 13029
   },
   {
     "skill": "pandas",
-    "job_count": 5704
+    "job_count": 5739
   },
   {
     "skill": "spark",
-    "job_count": 46497
+    "job_count": 47089
   },
   {
     "skill": "airflow",
-    "job_count": 10332
-  },
-  {
-    "skill": "dbt",
-    "job_count": 9932
+    "job_count": 10397
   },
   {
     "skill": "kafka",
-    "job_count": 17213
+    "job_count": 17334
   },
   {
     "skill": "snowflake",
-    "job_count": 17845
+    "job_count": 17986
   },
   {
     "skill": "postgresql",
-    "job_count": 14254
+    "job_count": 14372
   },
   {
     "skill": "mongodb",
-    "job_count": 7601
-  },
-  {
-    "skill": "redis",
-    "job_count": 5716
+    "job_count": 7667
   },
   {
     "skill": "aws",
-    "job_count": 122924
+    "job_count": 123661
   },
   {
     "skill": "azure",
-    "job_count": 96458
-  },
-  {
-    "skill": "gcp",
-    "job_count": 41356
+    "job_count": 96657
   },
   {
     "skill": "docker",
-    "job_count": 39772
+    "job_count": 39999
   },
   {
     "skill": "kubernetes",
-    "job_count": 52572
-  },
-  {
-    "skill": "terraform",
-    "job_count": 31668
+    "job_count": 52749
   },
   {
     "skill": "flutter",
-    "job_count": 1117
+    "job_count": 1122
   },
   {
     "skill": "react-native",
-    "job_count": 2431
+    "job_count": 2441
   }
 ]
