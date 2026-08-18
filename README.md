@@ -1,6 +1,6 @@
 # Github Dev Ecosystem × Job Demand Signal
 
-A Python data pipeline and Power BI dashboard that compares **GitHub developer activity with job-market demand** across 30 technologies and 9 categories.
+A Python data pipeline and Power BI dashboard that compares **GitHub developer activity with job-market demand** across 10 technologies and 5 categories.
 
 ### 🎯 Core Question
 
