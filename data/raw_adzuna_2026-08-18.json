@@ -1,0 +1,122 @@
+[
+  {
+    "skill": "python",
+    "job_count": 162963
+  },
+  {
+    "skill": "javascript",
+    "job_count": 39156
+  },
+  {
+    "skill": "typescript",
+    "job_count": 23733
+  },
+  {
+    "skill": "go",
+    "job_count": 603194
+  },
+  {
+    "skill": "rust",
+    "job_count": 10076
+  },
+  {
+    "skill": "react",
+    "job_count": 50917
+  },
+  {
+    "skill": "vue",
+    "job_count": 5473
+  },
+  {
+    "skill": "tailwindcss",
+    "job_count": 135
+  },
+  {
+    "skill": "django",
+    "job_count": 2559
+  },
+  {
+    "skill": "fastapi",
+    "job_count": 3197
+  },
+  {
+    "skill": "nodejs",
+    "job_count": 11670
+  },
+  {
+    "skill": "tensorflow",
+    "job_count": 9859
+  },
+  {
+    "skill": "pytorch",
+    "job_count": 12945
+  },
+  {
+    "skill": "pandas",
+    "job_count": 5704
+  },
+  {
+    "skill": "spark",
+    "job_count": 46497
+  },
+  {
+    "skill": "airflow",
+    "job_count": 10332
+  },
+  {
+    "skill": "dbt",
+    "job_count": 9932
+  },
+  {
+    "skill": "kafka",
+    "job_count": 17213
+  },
+  {
+    "skill": "snowflake",
+    "job_count": 17845
+  },
+  {
+    "skill": "postgresql",
+    "job_count": 14254
+  },
+  {
+    "skill": "mongodb",
+    "job_count": 7601
+  },
+  {
+    "skill": "redis",
+    "job_count": 5716
+  },
+  {
+    "skill": "aws",
+    "job_count": 122924
+  },
+  {
+    "skill": "azure",
+    "job_count": 96458
+  },
+  {
+    "skill": "gcp",
+    "job_count": 41356
+  },
+  {
+    "skill": "docker",
+    "job_count": 39772
+  },
+  {
+    "skill": "kubernetes",
+    "job_count": 52572
+  },
+  {
+    "skill": "terraform",
+    "job_count": 31668
+  },
+  {
+    "skill": "flutter",
+    "job_count": 1117
+  },
+  {
+    "skill": "react-native",
+    "job_count": 2431
+  }
+]
