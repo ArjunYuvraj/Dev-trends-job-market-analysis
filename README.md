@@ -26,7 +26,7 @@ The project combines GitHub ecosystem data with job posting data to identify dem
 
 **Extract**
 
-* Pulls GitHub repository activity and Adzuna job-market data for 30 technologies.
+* Pulls GitHub repository activity and Adzuna job-market data for 10 technologies.
 * Captures repository counts, top repositories, stars, and job posting metrics.
 * Includes retry handling for transient API failures.
 * Stores raw API responses as dated JSON snapshots.
@@ -35,7 +35,7 @@ The project combines GitHub ecosystem data with job posting data to identify dem
 
 * Normalizes both sources using a common `skill` + `date_pulled` structure.
 * Flattens GitHub's nested `top_repos` data into average and maximum star metrics.
-* Maps each technology to one of 9 categories.
+* Maps each technology to one of 5 categories.
 * Produces clean, analysis-ready records directly through Python without a CSV intermediate layer.
 
 **Load**
