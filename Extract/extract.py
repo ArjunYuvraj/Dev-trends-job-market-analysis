@@ -12,19 +12,23 @@ ADZUNA_APP_KEY = os.environ.get("ADZUNA_APP_KEY")
 
 # Define your Skill List.
 
-CORE_SKILLS = ["python", "javascript","java"]
-FRONTEND_SKILLS = ["react", "vue", "tailwindcss"]
-BACKEND_SKILLS = ["django", "fastapi", "nodejs"]
-AI_ML_SKILLS = ["tensorflow", "pytorch", "pandas"]
-DATA_SKILLS = ["spark", "airflow", "kafka", "snowflake"]
+CORE_SKILLS = ["python", "C++", "java"]
+
+WEB_SKILLS = ["react", "nodejs"]
+
+AI_ML_SKILLS = ["pytorch", "tensorflow"]
+
+DATA_SKILLS = ["pandas", "spark"]
+
 DATABASE_SKILLS = ["postgresql", "mongodb"]
-CLOUD_SKILLS = ["aws", "azure"]
-DEVOPS_SKILLS = ["docker", "kubernetes"]
-MOBILE_SKILLS = ["flutter", "react-native"]
+
+CLOUD_DEVOPS_SKILLS = ["aws", "docker"]
+
+MOBILE_SKILLS = ["flutter"]
 
 ALL_SKILLS = (
-    CORE_SKILLS + FRONTEND_SKILLS + BACKEND_SKILLS + AI_ML_SKILLS
-    + DATA_SKILLS + DATABASE_SKILLS + CLOUD_SKILLS + DEVOPS_SKILLS + MOBILE_SKILLS
+    CORE_SKILLS   + AI_ML_SKILLS
+    + DATA_SKILLS + DATABASE_SKILLS  + MOBILE_SKILLS
 )
 
 
