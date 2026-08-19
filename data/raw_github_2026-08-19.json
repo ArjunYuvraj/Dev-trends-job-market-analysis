@@ -1,0 +1,262 @@
+[
+  {
+    "skill": "python",
+    "total_count": 32544678,
+    "top_repos": [
+      {
+        "name": "public-apis/public-apis",
+        "stars": 464880
+      },
+      {
+        "name": "EbookFoundation/free-programming-books",
+        "stars": 394726
+      },
+      {
+        "name": "donnemartin/system-design-primer",
+        "stars": 364743
+      },
+      {
+        "name": "vinta/awesome-python",
+        "stars": 314750
+      },
+      {
+        "name": "practical-tutorials/project-based-learning",
+        "stars": 279828
+      }
+    ]
+  },
+  {
+    "skill": "C++",
+    "total_count": 7016219,
+    "top_repos": [
+      {
+        "name": "tensorflow/tensorflow",
+        "stars": 197054
+      },
+      {
+        "name": "react/react-native",
+        "stars": 126359
+      },
+      {
+        "name": "ggml-org/llama.cpp",
+        "stars": 124588
+      },
+      {
+        "name": "electron/electron",
+        "stars": 122566
+      },
+      {
+        "name": "godotengine/godot",
+        "stars": 115850
+      }
+    ]
+  },
+  {
+    "skill": "java",
+    "total_count": 21448066,
+    "top_repos": [
+      {
+        "name": "krahets/hello-algo",
+        "stars": 129466
+      },
+      {
+        "name": "iluwatar/java-design-patterns",
+        "stars": 94586
+      },
+      {
+        "name": "Stirling-Tools/Stirling-PDF",
+        "stars": 89824
+      },
+      {
+        "name": "macrozheng/mall",
+        "stars": 84575
+      },
+      {
+        "name": "spring-projects/spring-boot",
+        "stars": 81317
+      }
+    ]
+  },
+  {
+    "skill": "pytorch",
+    "total_count": 58312,
+    "top_repos": [
+      {
+        "name": "AUTOMATIC1111/stable-diffusion-webui",
+        "stars": 164571
+      },
+      {
+        "name": "huggingface/transformers",
+        "stars": 164235
+      },
+      {
+        "name": "Comfy-Org/ComfyUI",
+        "stars": 128339
+      },
+      {
+        "name": "rasbt/LLMs-from-scratch",
+        "stars": 102965
+      },
+      {
+        "name": "vllm-project/vllm",
+        "stars": 89393
+      }
+    ]
+  },
+  {
+    "skill": "tensorflow",
+    "total_count": 44049,
+    "top_repos": [
+      {
+        "name": "tensorflow/tensorflow",
+        "stars": 197054
+      },
+      {
+        "name": "keras-team/keras",
+        "stars": 64240
+      },
+      {
+        "name": "CorentinJ/Real-Time-Voice-Cloning",
+        "stars": 60089
+      },
+      {
+        "name": "roboflow/supervision",
+        "stars": 49516
+      },
+      {
+        "name": "aymericdamien/TensorFlow-Examples",
+        "stars": 43732
+      }
+    ]
+  },
+  {
+    "skill": "pandas",
+    "total_count": 62644,
+    "top_repos": [
+      {
+        "name": "Asabeneh/30-Days-Of-Python",
+        "stars": 71344
+      },
+      {
+        "name": "jakevdp/PythonDataScienceHandbook",
+        "stars": 49635
+      },
+      {
+        "name": "pandas-dev/pandas",
+        "stars": 49516
+      },
+      {
+        "name": "microsoft/Data-Science-For-Beginners",
+        "stars": 36647
+      },
+      {
+        "name": "tqdm/tqdm",
+        "stars": 31276
+      }
+    ]
+  },
+  {
+    "skill": "spark",
+    "total_count": 9933,
+    "top_repos": [
+      {
+        "name": "DataTalksClub/data-engineering-zoomcamp",
+        "stars": 44721
+      },
+      {
+        "name": "apache/spark",
+        "stars": 43835
+      },
+      {
+        "name": "donnemartin/data-science-ipython-notebooks",
+        "stars": 29304
+      },
+      {
+        "name": "getredash/redash",
+        "stars": 28754
+      },
+      {
+        "name": "yeasy/docker_practice",
+        "stars": 26196
+      }
+    ]
+  },
+  {
+    "skill": "postgresql",
+    "total_count": 110240,
+    "top_repos": [
+      {
+        "name": "supabase/supabase",
+        "stars": 108148
+      },
+      {
+        "name": "netdata/netdata",
+        "stars": 80226
+      },
+      {
+        "name": "nocodb/nocodb",
+        "stars": 64586
+      },
+      {
+        "name": "makeplane/plane",
+        "stars": 56116
+      },
+      {
+        "name": "twentyhq/twenty",
+        "stars": 55113
+      }
+    ]
+  },
+  {
+    "skill": "mongodb",
+    "total_count": 143609,
+    "top_repos": [
+      {
+        "name": "macrozheng/mall",
+        "stars": 84575
+      },
+      {
+        "name": "netdata/netdata",
+        "stars": 80226
+      },
+      {
+        "name": "Asabeneh/30-Days-Of-Python",
+        "stars": 71344
+      },
+      {
+        "name": "prisma/prisma",
+        "stars": 47568
+      },
+      {
+        "name": "meteor/meteor",
+        "stars": 44810
+      }
+    ]
+  },
+  {
+    "skill": "flutter",
+    "total_count": 78377,
+    "top_repos": [
+      {
+        "name": "flutter/flutter",
+        "stars": 178471
+      },
+      {
+        "name": "rustdesk/rustdesk",
+        "stars": 121218
+      },
+      {
+        "name": "immich-app/immich",
+        "stars": 111587
+      },
+      {
+        "name": "localsend/localsend",
+        "stars": 88679
+      },
+      {
+        "name": "AppFlowy-IO/AppFlowy",
+        "stars": 75705
+      }
+    ]
+  }
+]

@@ -1,5 +1,4 @@
 """
-run_pipeline.py
 Orchestrates the full Extract -> Transform -> Load pipeline.
 Run from the project root: python run_pipeline.py
 """
