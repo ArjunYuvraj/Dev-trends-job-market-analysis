@@ -1,0 +1,102 @@
+[
+  {
+    "skill": "python",
+    "job_count": 166123,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "C++",
+    "job_count": 47525,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "java",
+    "job_count": 70012,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "pytorch",
+    "job_count": 13298,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "tensorflow",
+    "job_count": 10019,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "pandas",
+    "job_count": 5854,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "spark",
+    "job_count": 46980,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "postgresql",
+    "job_count": 14711,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "mongodb",
+    "job_count": 7949,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "flutter",
+    "job_count": 1167,
+    "date_pulled": "2026-08-19"
+  },
+  {
+    "skill": "python",
+    "job_count": 143148,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "C++",
+    "job_count": 40422,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "java",
+    "job_count": 62250,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "pytorch",
+    "job_count": 11801,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "tensorflow",
+    "job_count": 8665,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "pandas",
+    "job_count": 4942,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "spark",
+    "job_count": 42963,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "postgresql",
+    "job_count": 13062,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "mongodb",
+    "job_count": 7154,
+    "date_pulled": "2026-08-22"
+  },
+  {
+    "skill": "flutter",
+    "job_count": 960,
+    "date_pulled": "2026-08-22"
+  }
+]

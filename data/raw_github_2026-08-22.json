@@ -1,261 +1,261 @@
 [
   {
     "skill": "python",
-    "total_count": 32544678,
+    "total_count": 32663498,
     "top_repos": [
       {
         "name": "public-apis/public-apis",
-        "stars": 464880
+        "stars": 468288
       },
       {
         "name": "EbookFoundation/free-programming-books",
-        "stars": 394726
+        "stars": 394989
       },
       {
         "name": "donnemartin/system-design-primer",
-        "stars": 364743
+        "stars": 365377
       },
       {
         "name": "vinta/awesome-python",
-        "stars": 314750
+        "stars": 315446
       },
       {
         "name": "practical-tutorials/project-based-learning",
-        "stars": 279828
+        "stars": 280318
       }
     ]
   },
   {
     "skill": "C++",
-    "total_count": 7016219,
+    "total_count": 7025396,
     "top_repos": [
       {
         "name": "tensorflow/tensorflow",
-        "stars": 197054
+        "stars": 197313
       },
       {
         "name": "react/react-native",
-        "stars": 126359
+        "stars": 126387
       },
       {
         "name": "ggml-org/llama.cpp",
-        "stars": 124588
+        "stars": 125109
       },
       {
         "name": "electron/electron",
-        "stars": 122566
+        "stars": 122645
       },
       {
         "name": "godotengine/godot",
-        "stars": 115850
+        "stars": 115973
       }
     ]
   },
   {
     "skill": "java",
-    "total_count": 21448066,
+    "total_count": 21468634,
     "top_repos": [
       {
         "name": "krahets/hello-algo",
-        "stars": 129466
+        "stars": 129546
       },
       {
         "name": "iluwatar/java-design-patterns",
-        "stars": 94586
+        "stars": 94600
       },
       {
         "name": "Stirling-Tools/Stirling-PDF",
-        "stars": 89824
+        "stars": 90021
       },
       {
         "name": "macrozheng/mall",
-        "stars": 84575
+        "stars": 84599
       },
       {
         "name": "spring-projects/spring-boot",
-        "stars": 81317
+        "stars": 81335
       }
     ]
   },
   {
     "skill": "pytorch",
-    "total_count": 58312,
+    "total_count": 58698,
     "top_repos": [
       {
         "name": "AUTOMATIC1111/stable-diffusion-webui",
-        "stars": 164571
+        "stars": 164607
       },
       {
         "name": "huggingface/transformers",
-        "stars": 164235
+        "stars": 164333
       },
       {
         "name": "Comfy-Org/ComfyUI",
-        "stars": 128339
+        "stars": 128921
       },
       {
         "name": "rasbt/LLMs-from-scratch",
-        "stars": 102965
+        "stars": 103201
       },
       {
         "name": "vllm-project/vllm",
-        "stars": 89393
+        "stars": 89693
       }
     ]
   },
   {
     "skill": "tensorflow",
-    "total_count": 44049,
+    "total_count": 44125,
     "top_repos": [
       {
         "name": "tensorflow/tensorflow",
-        "stars": 197054
+        "stars": 197313
       },
       {
         "name": "keras-team/keras",
-        "stars": 64240
+        "stars": 64245
       },
       {
         "name": "CorentinJ/Real-Time-Voice-Cloning",
-        "stars": 60089
+        "stars": 60100
       },
       {
         "name": "roboflow/supervision",
-        "stars": 49516
+        "stars": 49650
       },
       {
         "name": "aymericdamien/TensorFlow-Examples",
-        "stars": 43732
+        "stars": 43738
       }
     ]
   },
   {
     "skill": "pandas",
-    "total_count": 62644,
+    "total_count": 63041,
     "top_repos": [
       {
         "name": "Asabeneh/30-Days-Of-Python",
-        "stars": 71344
+        "stars": 71599
       },
       {
         "name": "jakevdp/PythonDataScienceHandbook",
-        "stars": 49635
+        "stars": 49668
       },
       {
         "name": "pandas-dev/pandas",
-        "stars": 49516
+        "stars": 49545
       },
       {
         "name": "microsoft/Data-Science-For-Beginners",
-        "stars": 36647
+        "stars": 36682
       },
       {
         "name": "tqdm/tqdm",
-        "stars": 31276
+        "stars": 31282
       }
     ]
   },
   {
     "skill": "spark",
-    "total_count": 9933,
+    "total_count": 9956,
     "top_repos": [
       {
         "name": "DataTalksClub/data-engineering-zoomcamp",
-        "stars": 44721
+        "stars": 44803
       },
       {
         "name": "apache/spark",
-        "stars": 43835
+        "stars": 43855
       },
       {
         "name": "donnemartin/data-science-ipython-notebooks",
-        "stars": 29304
+        "stars": 29307
       },
       {
         "name": "getredash/redash",
-        "stars": 28754
+        "stars": 28764
       },
       {
         "name": "yeasy/docker_practice",
-        "stars": 26196
+        "stars": 26210
       }
     ]
   },
   {
     "skill": "postgresql",
-    "total_count": 110240,
+    "total_count": 111204,
     "top_repos": [
       {
         "name": "supabase/supabase",
-        "stars": 108148
+        "stars": 108256
       },
       {
         "name": "netdata/netdata",
-        "stars": 80226
+        "stars": 80260
       },
       {
         "name": "nocodb/nocodb",
-        "stars": 64586
+        "stars": 64641
       },
       {
         "name": "makeplane/plane",
-        "stars": 56116
+        "stars": 57029
       },
       {
         "name": "twentyhq/twenty",
-        "stars": 55113
+        "stars": 55314
       }
     ]
   },
   {
     "skill": "mongodb",
-    "total_count": 143609,
+    "total_count": 144079,
     "top_repos": [
       {
         "name": "macrozheng/mall",
-        "stars": 84575
+        "stars": 84599
       },
       {
         "name": "netdata/netdata",
-        "stars": 80226
+        "stars": 80260
       },
       {
         "name": "Asabeneh/30-Days-Of-Python",
-        "stars": 71344
+        "stars": 71599
       },
       {
         "name": "prisma/prisma",
-        "stars": 47568
+        "stars": 47556
       },
       {
         "name": "meteor/meteor",
-        "stars": 44810
+        "stars": 44809
       }
     ]
   },
   {
     "skill": "flutter",
-    "total_count": 78377,
+    "total_count": 78641,
     "top_repos": [
       {
         "name": "flutter/flutter",
-        "stars": 178471
+        "stars": 178582
       },
       {
         "name": "rustdesk/rustdesk",
-        "stars": 121218
+        "stars": 121468
       },
       {
         "name": "immich-app/immich",
-        "stars": 111587
+        "stars": 112314
       },
       {
         "name": "localsend/localsend",
-        "stars": 88679
+        "stars": 88950
       },
       {
         "name": "AppFlowy-IO/AppFlowy",
-        "stars": 75705
+        "stars": 75831
       }
     ]
   }
