@@ -1,0 +1,42 @@
+[
+  {
+    "skill": "python",
+    "job_count": 156781
+  },
+  {
+    "skill": "C++",
+    "job_count": 45220
+  },
+  {
+    "skill": "java",
+    "job_count": 67970
+  },
+  {
+    "skill": "pytorch",
+    "job_count": 12823
+  },
+  {
+    "skill": "tensorflow",
+    "job_count": 9259
+  },
+  {
+    "skill": "pandas",
+    "job_count": 5241
+  },
+  {
+    "skill": "spark",
+    "job_count": 44282
+  },
+  {
+    "skill": "postgresql",
+    "job_count": 13876
+  },
+  {
+    "skill": "mongodb",
+    "job_count": 7571
+  },
+  {
+    "skill": "flutter",
+    "job_count": 1067
+  }
+]
