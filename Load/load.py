@@ -50,7 +50,8 @@ def insert_jobs(conn, rows):
     """, rows)
 
 def load_data(github_rows, job_rows):
-    conn = sqlite3.connect("data/pipeline.db")
+    conn = sqlite3.connect(DB_PATH)
+    create_tables(conn)
     insert_github(conn, github_rows)
     insert_jobs(conn, job_rows) 
     conn.commit()

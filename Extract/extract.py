@@ -1,6 +1,7 @@
 
 
 import os
+import sys
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -79,46 +80,111 @@ def get_adzuna_metrics(skill):
 
 import time
 
-def call_with_retry(func, skill, max_retries=3):
+
+class ProgressBar:
+    def __init__(self, total):
+        self.total = total
+        self.completed = 0
+
+    def render(self, status=""):
+        width = 30
+        filled = int(width * self.completed / self.total) if self.total else width
+        bar = "#" * filled + "-" * (width - filled)
+        message = f"[{bar}] {self.completed}/{self.total} {status}"
+        sys.stdout.write(f"\r\033[2K{message}")
+        sys.stdout.flush()
+
+    def update(self, status=""):
+        self.completed += 1
+        self.render(status)
+
+    def finish(self):
+        self.render("Complete")
+        sys.stdout.write("\n")
+        sys.stdout.flush()
+
+
+def call_with_retry(func, skill, max_retries=3, status_callback=None):
     for attempt in range(max_retries):
         try:
             return func(skill)
         except requests.exceptions.HTTPError as e:
-            print(f"  Attempt {attempt + 1} failed for {skill}: {e}")
+            if status_callback:
+                status_callback(f"{skill}: retry {attempt + 1}/{max_retries}")
+            else:
+                print(f"  Attempt {attempt + 1} failed for {skill}: {e}")
             time.sleep(3)  # wait longer before retrying
-    print(f"  Giving up on {skill} after {max_retries} attempts")
+    if status_callback:
+        status_callback(f"{skill}: failed")
+    else:
+        print(f"  Giving up on {skill} after {max_retries} attempts")
     return None
 
 import json, time
 from datetime import date
 
+DATA_FILE = os.path.join("data", "pipeline.json")
+
+
+def save_results(github_results, adzuna_results, pulled_date):
+    """Upsert this pull into one JSON file, keyed by source, date, and skill."""
+    store = {"github": [], "adzuna": []}
+    if os.path.exists(DATA_FILE):
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            existing = json.load(f)
+        store["github"] = existing.get("github", [])
+        store["adzuna"] = existing.get("adzuna", [])
+
+    for source, results in (("github", github_results), ("adzuna", adzuna_results)):
+        current = {
+            (record["date_pulled"], record["skill"]): record
+            for record in store[source]
+        }
+        for record in results:
+            record["date_pulled"] = pulled_date
+            current[(pulled_date, record["skill"])] = record
+        store[source] = sorted(
+            current.values(), key=lambda record: (record["date_pulled"], record["skill"])
+        )
+
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(store, f, indent=2)
+
 def main():
     os.makedirs("data", exist_ok=True)
     github_results, adzuna_results = [], []
+    progress = ProgressBar(total=len(ALL_SKILLS) * 2)
+    progress.render("Starting extraction")
 
     for skill in ALL_SKILLS:
-        print(f"Processing: {skill}")
-
-        gh = call_with_retry(get_github_metrics, skill)
+        gh = call_with_retry(
+            get_github_metrics,
+            skill,
+            status_callback=lambda status: progress.render(status),
+        )
         if gh:
             github_results.append(gh)
-            print(f"  GitHub OK: {gh['total_count']} repos found")
+        progress.update(f"GitHub: {skill}")
         time.sleep(1)
 
-        az = call_with_retry(get_adzuna_metrics, skill)
+        az = call_with_retry(
+            get_adzuna_metrics,
+            skill,
+            status_callback=lambda status: progress.render(status),
+        )
         if az:
             adzuna_results.append(az)
-            print(f"  Adzuna OK: {az['job_count']} jobs found")
+        progress.update(f"Adzuna: {skill}")
         time.sleep(1)
 
-    today = date.today().isoformat()
-    with open(f"data/raw_github_{today}.json", "w") as f:
-        json.dump(github_results, f, indent=2)
-    with open(f"data/raw_adzuna_{today}.json", "w") as f:
-        json.dump(adzuna_results, f, indent=2)
+    progress.finish()
 
-    print(f"\nSaved data/raw_github_{today}.json ({len(github_results)} skills)")
-    print(f"Saved data/raw_adzuna_{today}.json ({len(adzuna_results)} skills)")
+    today = date.today().isoformat()
+    save_results(github_results, adzuna_results, today)
+
+    print(f"\nSaved {DATA_FILE} ({len(github_results)} GitHub skills, "
+          f"{len(adzuna_results)} Adzuna skills for {today})")
+    return DATA_FILE
 
 
 if __name__ == "__main__":

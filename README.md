@@ -26,42 +26,42 @@ The project combines GitHub ecosystem data with job posting data to identify dem
 
 **Extract**
 
-* Pulls GitHub repository activity and Adzuna job-market data for 10 technologies.
-* Captures repository counts, top repositories, stars, and job posting metrics.
-* Includes retry handling for transient API failures.
-* Stores raw API responses as dated JSON snapshots.
+- Pulls GitHub repository activity and Adzuna job-market data for 10 technologies.
+- Captures repository counts, top repositories, stars, and job posting metrics.
+- Includes retry handling for transient API failures.
+- Displays a realtime progress bar while GitHub and Adzuna requests run.
+- Stores all raw API responses in one date-keyed `data/pipeline.json` file.
 
 **Transform**
 
-* Normalizes both sources using a common `skill` + `date_pulled` structure.
-* Flattens GitHub's nested `top_repos` data into average and maximum star metrics.
-* Maps each technology to one of 5 categories.
-* Produces clean, analysis-ready records directly through Python without a CSV intermediate layer.
+- Normalizes both sources using a common `skill` + `date_pulled` structure.
+- Flattens GitHub's nested `top_repos` data into average and maximum star metrics.
+- Maps each technology to one of 5 categories.
+- Produces clean, analysis-ready records directly through Python without a CSV intermediate layer.
 
 **Load**
 
-* Loads transformed data into SQLite tables: `github_metrics` and `job_postings`.
-* Uses `(skill, date_pulled)` as a composite primary key.
-* Uses `INSERT OR REPLACE` for idempotent reruns and duplicate prevention.
-* Preserves new dates as historical snapshots for future trend analysis.
+- Loads transformed data into SQLite tables: `github_metrics` and `job_postings`.
+- Uses `(skill, date_pulled)` as a composite primary key.
+- Uses `INSERT OR REPLACE` for idempotent reruns, so new dates are inserted and
+  rerunning a date updates its existing records.
+- Preserves new dates as historical snapshots for future trend analysis.
 
 **Orchestration**
 
-* `run_pipeline.py` coordinates the complete Extract → Transform → Load workflow.
-* Enables consistent weekly reruns as new snapshots are collected.
+- `run_pipeline.py` coordinates the complete Extract → Transform → Load workflow.
+- Enables consistent weekly reruns as new snapshots are collected.
 
 ### 4. Dashboard
 
 Power BI visualizes:
 
-* Total job postings
-* GitHub ecosystem size
-* Demand by category
-* Skill demand rankings
-* Historical trends
-* **Job Density Ratio**
-
-
+- Total job postings
+- GitHub ecosystem size
+- Demand by category
+- Skill demand rankings
+- Historical trends
+- **Job Density Ratio**
 
 ## 🛠️ Tech Stack
 
