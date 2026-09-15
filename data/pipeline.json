@@ -2,19 +2,19 @@
   "github": [
     {
       "skill": "C++",
-      "total_count": 7104596,
+      "total_count": 7104609,
       "top_repos": [
         {
           "name": "tensorflow/tensorflow",
-          "stars": 200105
+          "stars": 200106
         },
         {
           "name": "ggml-org/llama.cpp",
-          "stars": 128319
+          "stars": 128320
         },
         {
           "name": "react/react-native",
-          "stars": 126613
+          "stars": 126614
         },
         {
           "name": "electron/electron",
@@ -41,7 +41,7 @@
         },
         {
           "name": "immich-app/immich",
-          "stars": 114255
+          "stars": 114256
         },
         {
           "name": "localsend/localsend",
@@ -56,7 +56,7 @@
     },
     {
       "skill": "java",
-      "total_count": 21619106,
+      "total_count": 21619136,
       "top_repos": [
         {
           "name": "krahets/hello-algo",
@@ -68,7 +68,7 @@
         },
         {
           "name": "Stirling-Tools/Stirling-PDF",
-          "stars": 92189
+          "stars": 92190
         },
         {
           "name": "macrozheng/mall",
@@ -118,7 +118,7 @@
         },
         {
           "name": "jakevdp/PythonDataScienceHandbook",
-          "stars": 49883
+          "stars": 49884
         },
         {
           "name": "pandas-dev/pandas",
@@ -137,7 +137,7 @@
     },
     {
       "skill": "postgresql",
-      "total_count": 119445,
+      "total_count": 119446,
       "top_repos": [
         {
           "name": "supabase/supabase",
@@ -149,7 +149,7 @@
         },
         {
           "name": "nocodb/nocodb",
-          "stars": 64979
+          "stars": 64980
         },
         {
           "name": "makeplane/plane",
@@ -164,15 +164,15 @@
     },
     {
       "skill": "python",
-      "total_count": 33574286,
+      "total_count": 33574425,
       "top_repos": [
         {
           "name": "public-apis/public-apis",
-          "stars": 480517
+          "stars": 480518
         },
         {
           "name": "EbookFoundation/free-programming-books",
-          "stars": 396829
+          "stars": 396830
         },
         {
           "name": "donnemartin/system-design-primer",
@@ -180,7 +180,7 @@
         },
         {
           "name": "vinta/awesome-python",
-          "stars": 320804
+          "stars": 320805
         },
         {
           "name": "practical-tutorials/project-based-learning",
@@ -249,7 +249,7 @@
       "top_repos": [
         {
           "name": "tensorflow/tensorflow",
-          "stars": 200105
+          "stars": 200106
         },
         {
           "name": "keras-team/keras",
@@ -274,7 +274,7 @@
   "adzuna": [
     {
       "skill": "C++",
-      "job_count": 45227,
+      "job_count": 45223,
       "date_pulled": "2026-09-15"
     },
     {
@@ -284,7 +284,7 @@
     },
     {
       "skill": "java",
-      "job_count": 64888,
+      "job_count": 64883,
       "date_pulled": "2026-09-15"
     },
     {
@@ -304,22 +304,22 @@
     },
     {
       "skill": "python",
-      "job_count": 151966,
+      "job_count": 151959,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "pytorch",
-      "job_count": 12713,
+      "job_count": 12711,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "spark",
-      "job_count": 42708,
+      "job_count": 42705,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "tensorflow",
-      "job_count": 9053,
+      "job_count": 9052,
       "date_pulled": "2026-09-15"
     }
   ]
