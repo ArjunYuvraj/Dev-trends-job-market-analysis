@@ -2,7 +2,7 @@
   "github": [
     {
       "skill": "C++",
-      "total_count": 7104609,
+      "total_count": 7104733,
       "top_repos": [
         {
           "name": "tensorflow/tensorflow",
@@ -10,7 +10,7 @@
         },
         {
           "name": "ggml-org/llama.cpp",
-          "stars": 128320
+          "stars": 128326
         },
         {
           "name": "react/react-native",
@@ -18,18 +18,18 @@
         },
         {
           "name": "electron/electron",
-          "stars": 123074
+          "stars": 123075
         },
         {
           "name": "godotengine/godot",
-          "stars": 117218
+          "stars": 117219
         }
       ],
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "flutter",
-      "total_count": 80709,
+      "total_count": 80711,
       "top_repos": [
         {
           "name": "flutter/flutter",
@@ -37,57 +37,57 @@
         },
         {
           "name": "rustdesk/rustdesk",
-          "stars": 123629
+          "stars": 123633
         },
         {
           "name": "immich-app/immich",
-          "stars": 114256
+          "stars": 114259
         },
         {
           "name": "localsend/localsend",
-          "stars": 91656
+          "stars": 91659
         },
         {
           "name": "AppFlowy-IO/AppFlowy",
-          "stars": 76723
+          "stars": 76726
         }
       ],
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "java",
-      "total_count": 21619136,
+      "total_count": 21619360,
       "top_repos": [
         {
           "name": "krahets/hello-algo",
-          "stars": 130127
+          "stars": 130129
         },
         {
           "name": "iluwatar/java-design-patterns",
-          "stars": 94692
+          "stars": 94693
         },
         {
           "name": "Stirling-Tools/Stirling-PDF",
-          "stars": 92190
+          "stars": 92193
         },
         {
           "name": "macrozheng/mall",
-          "stars": 84769
+          "stars": 84770
         },
         {
           "name": "spring-projects/spring-boot",
-          "stars": 81434
+          "stars": 81435
         }
       ],
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "mongodb",
-      "total_count": 145854,
+      "total_count": 145856,
       "top_repos": [
         {
           "name": "macrozheng/mall",
-          "stars": 84769
+          "stars": 84770
         },
         {
           "name": "netdata/netdata",
@@ -95,7 +95,7 @@
         },
         {
           "name": "Asabeneh/30-Days-Of-Python",
-          "stars": 73844
+          "stars": 73847
         },
         {
           "name": "prisma/orm",
@@ -110,15 +110,15 @@
     },
     {
       "skill": "pandas",
-      "total_count": 65970,
+      "total_count": 65971,
       "top_repos": [
         {
           "name": "Asabeneh/30-Days-Of-Python",
-          "stars": 73844
+          "stars": 73847
         },
         {
           "name": "jakevdp/PythonDataScienceHandbook",
-          "stars": 49884
+          "stars": 49885
         },
         {
           "name": "pandas-dev/pandas",
@@ -126,7 +126,7 @@
         },
         {
           "name": "microsoft/Data-Science-For-Beginners",
-          "stars": 36935
+          "stars": 36936
         },
         {
           "name": "tqdm/tqdm",
@@ -137,11 +137,11 @@
     },
     {
       "skill": "postgresql",
-      "total_count": 119446,
+      "total_count": 119450,
       "top_repos": [
         {
           "name": "supabase/supabase",
-          "stars": 109304
+          "stars": 109306
         },
         {
           "name": "netdata/netdata",
@@ -153,34 +153,34 @@
         },
         {
           "name": "makeplane/plane",
-          "stars": 59436
+          "stars": 59437
         },
         {
           "name": "twentyhq/twenty",
-          "stars": 56814
+          "stars": 56817
         }
       ],
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "python",
-      "total_count": 33574425,
+      "total_count": 33575494,
       "top_repos": [
         {
           "name": "public-apis/public-apis",
-          "stars": 480518
+          "stars": 480529
         },
         {
           "name": "EbookFoundation/free-programming-books",
-          "stars": 396830
+          "stars": 396835
         },
         {
           "name": "donnemartin/system-design-primer",
-          "stars": 370154
+          "stars": 370156
         },
         {
           "name": "vinta/awesome-python",
-          "stars": 320805
+          "stars": 320808
         },
         {
           "name": "practical-tutorials/project-based-learning",
@@ -191,19 +191,19 @@
     },
     {
       "skill": "pytorch",
-      "total_count": 61836,
+      "total_count": 61840,
       "top_repos": [
         {
           "name": "huggingface/transformers",
-          "stars": 166175
+          "stars": 166177
         },
         {
           "name": "AUTOMATIC1111/stable-diffusion-webui",
-          "stars": 164948
+          "stars": 164950
         },
         {
           "name": "Comfy-Org/ComfyUI",
-          "stars": 133343
+          "stars": 133345
         },
         {
           "name": "rasbt/LLMs-from-scratch",
@@ -211,7 +211,7 @@
         },
         {
           "name": "vllm-project/vllm",
-          "stars": 91843
+          "stars": 91844
         }
       ],
       "date_pulled": "2026-09-15"
@@ -238,18 +238,18 @@
         },
         {
           "name": "yeasy/docker_practice",
-          "stars": 26247
+          "stars": 26248
         }
       ],
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "tensorflow",
-      "total_count": 44847,
+      "total_count": 44846,
       "top_repos": [
         {
           "name": "tensorflow/tensorflow",
-          "stars": 200106
+          "stars": 200105
         },
         {
           "name": "keras-team/keras",
@@ -261,7 +261,7 @@
         },
         {
           "name": "roboflow/supervision",
-          "stars": 50215
+          "stars": 50224
         },
         {
           "name": "ray-project/ray",
@@ -274,52 +274,52 @@
   "adzuna": [
     {
       "skill": "C++",
-      "job_count": 45223,
+      "job_count": 45468,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "flutter",
-      "job_count": 991,
+      "job_count": 992,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "java",
-      "job_count": 64883,
+      "job_count": 65159,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "mongodb",
-      "job_count": 7006,
+      "job_count": 7036,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "pandas",
-      "job_count": 5182,
+      "job_count": 5194,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "postgresql",
-      "job_count": 12961,
+      "job_count": 13024,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "python",
-      "job_count": 151959,
+      "job_count": 152565,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "pytorch",
-      "job_count": 12711,
+      "job_count": 12727,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "spark",
-      "job_count": 42705,
+      "job_count": 42723,
       "date_pulled": "2026-09-15"
     },
     {
       "skill": "tensorflow",
-      "job_count": 9052,
+      "job_count": 9067,
       "date_pulled": "2026-09-15"
     }
   ]
