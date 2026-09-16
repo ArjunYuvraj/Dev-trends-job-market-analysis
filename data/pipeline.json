@@ -269,6 +269,276 @@
         }
       ],
       "date_pulled": "2026-09-15"
+    },
+    {
+      "skill": "C++",
+      "total_count": 7108041,
+      "top_repos": [
+        {
+          "name": "tensorflow/tensorflow",
+          "stars": 200134
+        },
+        {
+          "name": "ggml-org/llama.cpp",
+          "stars": 128431
+        },
+        {
+          "name": "react/react-native",
+          "stars": 126626
+        },
+        {
+          "name": "electron/electron",
+          "stars": 123091
+        },
+        {
+          "name": "godotengine/godot",
+          "stars": 117279
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "flutter",
+      "total_count": 80785,
+      "top_repos": [
+        {
+          "name": "flutter/flutter",
+          "stars": 178965
+        },
+        {
+          "name": "rustdesk/rustdesk",
+          "stars": 123785
+        },
+        {
+          "name": "immich-app/immich",
+          "stars": 114422
+        },
+        {
+          "name": "localsend/localsend",
+          "stars": 91790
+        },
+        {
+          "name": "AppFlowy-IO/AppFlowy",
+          "stars": 76759
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "java",
+      "total_count": 21627018,
+      "top_repos": [
+        {
+          "name": "krahets/hello-algo",
+          "stars": 130161
+        },
+        {
+          "name": "iluwatar/java-design-patterns",
+          "stars": 94699
+        },
+        {
+          "name": "macrozheng/mall",
+          "stars": 84780
+        },
+        {
+          "name": "spring-projects/spring-boot",
+          "stars": 81446
+        },
+        {
+          "name": "doocs/advanced-java",
+          "stars": 79114
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "mongodb",
+      "total_count": 145959,
+      "top_repos": [
+        {
+          "name": "macrozheng/mall",
+          "stars": 84780
+        },
+        {
+          "name": "netdata/netdata",
+          "stars": 80548
+        },
+        {
+          "name": "Asabeneh/30-Days-Of-Python",
+          "stars": 73912
+        },
+        {
+          "name": "prisma/orm",
+          "stars": 47611
+        },
+        {
+          "name": "meteor/meteor",
+          "stars": 44804
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "pandas",
+      "total_count": 66078,
+      "top_repos": [
+        {
+          "name": "Asabeneh/30-Days-Of-Python",
+          "stars": 73912
+        },
+        {
+          "name": "jakevdp/PythonDataScienceHandbook",
+          "stars": 49897
+        },
+        {
+          "name": "pandas-dev/pandas",
+          "stars": 49734
+        },
+        {
+          "name": "microsoft/Data-Science-For-Beginners",
+          "stars": 37030
+        },
+        {
+          "name": "tqdm/tqdm",
+          "stars": 31336
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "postgresql",
+      "total_count": 119786,
+      "top_repos": [
+        {
+          "name": "supabase/supabase",
+          "stars": 109482
+        },
+        {
+          "name": "netdata/netdata",
+          "stars": 80548
+        },
+        {
+          "name": "nocodb/nocodb",
+          "stars": 64986
+        },
+        {
+          "name": "makeplane/plane",
+          "stars": 59476
+        },
+        {
+          "name": "twentyhq/twenty",
+          "stars": 56875
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "python",
+      "total_count": 33611051,
+      "top_repos": [
+        {
+          "name": "public-apis/public-apis",
+          "stars": 480839
+        },
+        {
+          "name": "EbookFoundation/free-programming-books",
+          "stars": 396955
+        },
+        {
+          "name": "donnemartin/system-design-primer",
+          "stars": 370325
+        },
+        {
+          "name": "vinta/awesome-python",
+          "stars": 321028
+        },
+        {
+          "name": "practical-tutorials/project-based-learning",
+          "stars": 283524
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "pytorch",
+      "total_count": 61959,
+      "top_repos": [
+        {
+          "name": "huggingface/transformers",
+          "stars": 166254
+        },
+        {
+          "name": "AUTOMATIC1111/stable-diffusion-webui",
+          "stars": 164962
+        },
+        {
+          "name": "Comfy-Org/ComfyUI",
+          "stars": 133504
+        },
+        {
+          "name": "rasbt/LLMs-from-scratch",
+          "stars": 105084
+        },
+        {
+          "name": "vllm-project/vllm",
+          "stars": 91921
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "spark",
+      "total_count": 10078,
+      "top_repos": [
+        {
+          "name": "DataTalksClub/data-engineering-zoomcamp",
+          "stars": 45583
+        },
+        {
+          "name": "apache/spark",
+          "stars": 44001
+        },
+        {
+          "name": "donnemartin/data-science-ipython-notebooks",
+          "stars": 29348
+        },
+        {
+          "name": "getredash/redash",
+          "stars": 28796
+        },
+        {
+          "name": "yeasy/docker_practice",
+          "stars": 26249
+        }
+      ],
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "tensorflow",
+      "total_count": 44876,
+      "top_repos": [
+        {
+          "name": "tensorflow/tensorflow",
+          "stars": 200134
+        },
+        {
+          "name": "keras-team/keras",
+          "stars": 64317
+        },
+        {
+          "name": "CorentinJ/Real-Time-Voice-Cloning",
+          "stars": 60141
+        },
+        {
+          "name": "roboflow/supervision",
+          "stars": 50483
+        },
+        {
+          "name": "ray-project/ray",
+          "stars": 43831
+        }
+      ],
+      "date_pulled": "2026-09-16"
     }
   ],
   "adzuna": [
@@ -321,6 +591,56 @@
       "skill": "tensorflow",
       "job_count": 9067,
       "date_pulled": "2026-09-15"
+    },
+    {
+      "skill": "C++",
+      "job_count": 46342,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "flutter",
+      "job_count": 990,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "java",
+      "job_count": 66131,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "mongodb",
+      "job_count": 7061,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "pandas",
+      "job_count": 5344,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "postgresql",
+      "job_count": 13092,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "python",
+      "job_count": 154757,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "pytorch",
+      "job_count": 12964,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "spark",
+      "job_count": 42618,
+      "date_pulled": "2026-09-16"
+    },
+    {
+      "skill": "tensorflow",
+      "job_count": 9255,
+      "date_pulled": "2026-09-16"
     }
   ]
 }
